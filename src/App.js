@@ -5,6 +5,14 @@ import nextPlan from './assets/img/nextplan.png';
 import timeline from './assets/img/timeline.png';
 import laptop from './assets/img/laptop.png';
 import smile from './assets/img/smile.png';
+import vector from './assets/img/Vector.png';
+import vector2 from './assets/img/Vector_2.png';
+import vector3 from './assets/img/Vector_3.png';
+import vector4 from './assets/img/Vector_4.png';
+import vector5 from './assets/img/Vector_5.png';
+import ellipse from './assets/img/Ellipse.png';
+import ellipse3 from './assets/img/Ellipse_3.png';
+import ellipse4 from './assets/img/Ellipse_4.png';
 
 class App extends Component {
   render() {
@@ -76,8 +84,65 @@ class App extends Component {
             <img src={nextPlan} alt="nextPlan" />
           </div>
         </div>
-        <div className="content" id="fourth">
-          adasd
+        <div id="fourth">
+          <div>
+            <div className="ellips">
+              <img src={ellipse} alt="ellipse" />
+            </div>
+            <div className="ellips3">
+              <img src={ellipse3} alt="ellipse3" />
+            </div>
+            <div className="ellips4">
+              <img src={ellipse4} alt="ellipse4" />
+            </div>
+            <div className="vector3">
+              <img src={vector3} alt="vector3" />
+              <div>
+                <div className="vector-topic">Detection Behavior</div>
+                <div className="vector-desc">
+                  Detection in quatity of keyboard, mouse use, and image
+                  processing
+                </div>
+              </div>
+            </div>
+            <div className="vector4">
+              <img src={vector4} alt="vector4" />
+              <div>
+                <div className="vector-topic">Analysis</div>
+                <div className="vector-desc">
+                  Analysis the risk of timing that working on laptop
+                </div>
+              </div>
+            </div>
+            <div className="vector5">
+              <img src={vector5} alt="vector5" />
+              <div>
+                <div className="vector-topic">History</div>
+                <div className="vector-desc">
+                  Present the graph of quantity of working
+                </div>
+              </div>
+            </div>
+            <div className="vector2">
+              <img src={vector2} alt="vector2" />
+              <div>
+                <div className="vector-topic">Notification</div>
+                <div className="vector-desc">
+                  Notification when working for a long time
+                </div>
+              </div>
+            </div>
+            <div className="vector">
+              <img src={vector} alt="vector" />
+              <div>
+                <div className="vector-topic">All Features</div>
+                <div className="vector-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="content" id="fifth">
           <div>
