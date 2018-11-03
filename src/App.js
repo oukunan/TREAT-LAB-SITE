@@ -10,6 +10,14 @@ class App extends Component {
   render() {
     return (
       <Fragment>
+        <div id="navbar">
+          <div className="navbar-logo">TREATLAB.</div>
+          <div className="navbar-item">
+            <a href="">About</a>
+            <a href="">Download</a>
+            <a href="">Contact us</a>
+          </div>
+        </div>
         <div className="content" id="one">
           <div>
             <div className="logo">

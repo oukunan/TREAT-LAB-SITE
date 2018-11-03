@@ -78,3 +78,31 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
+#navbar {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.navbar-logo {
+  font-size: 14px;
+  font-weight: bold;
+  color: #a0ca68;
+  letter-spacing: 5px;
+  margin-left: 70px;
+}
+
+.navbar-item {
+  margin-right: 70px;
+}
+.navbar-item a {
+  text-decoration: none;
+  color: #4c4d4f;
+  font-size: 14px;
+  padding-left: 20px;
+}
