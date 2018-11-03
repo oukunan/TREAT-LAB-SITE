@@ -8,15 +8,20 @@ body {
   width: 100%;
 }
 
-#one {
+#one,
+#two,
+#three,
+#fifth,
+#sixth {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-#two {
-  background: url(http://cloud.niklausgerber.com/1a2n2I3J1h0M/red.png) center
-    center no-repeat scroll #8f2041;
+#seventh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
@@ -33,9 +38,16 @@ body {
 .data {
   font-size: 14px;
   color: #4c4d4f;
+  line-height: 25px;
 }
 
-.download {
+.description {
+  width: 380px;
+  height: 222px;
+}
+
+.download,
+.last_download {
   margin-top: 40px;
 }
 .download a {
@@ -46,4 +58,23 @@ body {
   background-image: linear-gradient(to right, #a0ca68, #6a9951);
   border-radius: 21px;
   padding: 13px 40px;
+}
+
+.topic {
+  font-size: 30px;
+  font-weight: bold;
+  color: #4c4d4f;
+  padding-bottom: 20px;
+}
+
+.last_download {
+  font-size: 20px;
+  font-weight: bold;
+  color: #4c4d4f;
+}
+
+#seventh div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
