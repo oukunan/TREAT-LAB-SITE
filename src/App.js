@@ -85,7 +85,7 @@ class App extends Component {
           </div>
         </div>
         <div id="fourth">
-          <div>
+          <div className="vector-container">
             <div className="ellips">
               <img src={ellipse} alt="ellipse" />
             </div>

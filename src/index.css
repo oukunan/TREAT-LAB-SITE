@@ -20,6 +20,9 @@ body {
 
 #fourth {
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #seventh {
@@ -111,6 +114,10 @@ body {
   padding-left: 20px;
 }
 
+.vector-container {
+  position: relative;
+}
+
 .ellips,
 .ellips3,
 .ellips4,
@@ -119,52 +126,45 @@ body {
 .vector3,
 .vector4,
 .vector5 {
-  position: relative;
+  position: absolute;
+  opacity: 0.92;
 }
 
 .ellips {
-  opacity: 0.8;
-  top: 500px;
-  left: 636px;
+  top: 50px;
+  left: -50px;
 }
 .ellips3 {
-  opacity: 0.8;
-  top: 157px;
-  left: 1087px;
+  top: -200px;
+  left: 400px;
 }
 .ellips4 {
-  opacity: 0.8;
-  top: 41px;
-  left: 300px;
+  top: -216px;
+  left: -305px;
 }
 
 .vector {
-  opacity: 0.8;
-  top: 59px;
-  left: 700px;
+  top: -150px;
 }
 
 .vector2 {
-  opacity: 0.8;
-  top: 0px;
-  left: 550px;
+  top: -228px;
+  left: -100px;
 }
 
 .vector3 {
-  opacity: 0.8;
-  left: 200px;
+  left: -400px;
+  top: -200px;
 }
 
 .vector4 {
-  opacity: 0.8;
-  top: 170px;
-  left: 200px;
+  top: -20px;
+  left: -400px;
 }
 
 .vector5 {
-  opacity: 0.8;
-  top: 100px;
-  left: 380px;
+  top: -100px;
+  left: -236px;
 }
 
 .vector3 img {
