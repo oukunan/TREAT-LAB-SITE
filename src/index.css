@@ -8,6 +8,36 @@ body {
   width: 100%;
 }
 
+.scroll {
+  position: absolute;
+  left: 48%;
+  bottom: 40px;
+  color: #a0ca68;
+  animation: action 1s infinite alternate;
+}
+
+i {
+  border: solid #a0ca68;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  position: relative;
+  left: 37px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
 #one,
 #two,
 #three,
@@ -127,7 +157,7 @@ body {
 .vector4,
 .vector5 {
   position: absolute;
-  opacity: 0.92;
+  opacity: 0.9;
 }
 
 .ellips {

@@ -48,6 +48,11 @@ class App extends Component {
           <div>
             <img src={proceeding} alt="proceeding" />
           </div>
+
+          <div className="scroll">
+            <div>Scroll down</div>
+            <i className="down" />
+          </div>
         </div>
         <div className="content" id="two">
           <div>
