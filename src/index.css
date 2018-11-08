@@ -161,16 +161,16 @@ i {
 }
 
 .ellips {
-  top: 50px;
+  top: 108px;
   left: -50px;
 }
 .ellips3 {
-  top: -200px;
-  left: 400px;
+  top: -250px;
+  left: 350px;
 }
 .ellips4 {
-  top: -216px;
-  left: -305px;
+  top: -300px;
+  left: -370px;
 }
 
 .vector {
@@ -178,34 +178,35 @@ i {
 }
 
 .vector2 {
-  top: -228px;
-  left: -100px;
+  top: -350px;
+  left: -30px;
 }
 
 .vector3 {
-  left: -400px;
-  top: -200px;
+  left: -525px;
+  top: -250px;
 }
 
 .vector4 {
-  top: -20px;
-  left: -400px;
+  top: -40px;
+  left: -485px;
 }
 
 .vector5 {
-  top: -100px;
-  left: -236px;
+  top: -190px;
+  left: -252px;
 }
 
 .vector3 img {
+  width: 320px;
   position: absolute;
 }
 
 .vector3 div {
   position: absolute;
-  top: 40px;
-  left: 18px;
-  width: 171px;
+  top: 60px;
+  left: 35px;
+  width: 200px;
 }
 
 .vector-topic {
@@ -221,39 +222,43 @@ i {
 }
 
 .vector4 img {
+  width: 320px;
   position: absolute;
 }
 
 .vector4 div {
   position: absolute;
-  top: 50px;
-  left: 12px;
+  top: 65px;
+  left: 33px;
   width: 170px;
 }
 
 .vector5 img {
+  width: 320px;
   position: absolute;
 }
 
 .vector5 div {
   position: absolute;
-  top: 40px;
-  left: 12px;
+  top: 60px;
+  left: 30px;
   width: 170px;
 }
 
 .vector2 img {
+  width: 320px;
   position: absolute;
 }
 
 .vector2 div {
   position: absolute;
-  top: 55px;
-  left: 17px;
+  top: 75px;
+  left: 47px;
   width: 170px;
 }
 
 .vector img {
+  width: 500px;
   position: absolute;
 }
 
