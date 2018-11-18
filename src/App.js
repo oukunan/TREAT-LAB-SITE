@@ -19,17 +19,13 @@ class App extends Component {
     return (
       <Fragment>
         <div id="navbar">
-          <div className="navbar-logo">TREATLAB.</div>
-          <div className="navbar-item">
-            <a href="">About</a>
-            <a href="">Download</a>
-            <a href="">Contact us</a>
-          </div>
+          <div className="navbar-logo">TREATLAP.</div>
+          <div className="navbar-item" />
         </div>
         <div className="content" id="one">
           <div>
             <div className="logo">
-              TREATLAB
+              TREATLAP
               <span id="dot">.</span>
             </div>
             <div className="data">
@@ -40,8 +36,9 @@ class App extends Component {
               <a
                 href="https://github.com/futurouz/TREAT-LAB/releases/download/v1.3.5/treatlab-setup-1.3.5.exe"
                 target="_blank"
+                rel="noopener noreferrer"
               >
-                Free Dowload
+                Free Download
               </a>
             </div>
           </div>
@@ -142,8 +139,14 @@ class App extends Component {
               <div>
                 <div className="vector-topic">All Features</div>
                 <div className="vector-desc">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  The system will detect your face, sitting position, head
+                  bending, count timing when using mouse or touchpad, and when
+                  typing the keyboard. Moreover, There is the notification for
+                  the user to change your behavior or to relax. And, the system
+                  will summary from the data of behavior to present trend of
+                  your behavior while working on a computer or laptop. It could
+                  protect and decrease the risk of office syndrome or health
+                  symptoms that relate to body.
                 </div>
               </div>
             </div>
@@ -157,8 +160,10 @@ class App extends Component {
             <div className="topic">Privacy and Security</div>
             <div className="data">
               <div className="description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                The system will use face detection to know user sitting in front
+                of the computer or laptop or not. Moreover, the system will not
+                store the data from user typing message, but it will only
+                collect count of typing from the keyboard.
               </div>
             </div>
           </div>
@@ -168,11 +173,11 @@ class App extends Component {
             <div className="topic">Support platform</div>
             <div className="data">
               <div className="description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                The application is only supported Windows10.
               </div>
             </div>
           </div>
+
           <div>
             <img src={laptop} alt="laptop" />
           </div>
@@ -187,6 +192,7 @@ class App extends Component {
               <a
                 href="https://github.com/futurouz/TREAT-LAB/releases/download/v1.3.5/treatlab-setup-1.3.5.exe"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Free Dowload
               </a>
